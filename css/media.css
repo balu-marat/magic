@@ -1,0 +1,31 @@
+@media screen and (max-width: 990px) {
+  .nav input {
+    width: 250px;
+  }
+  .nav a {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+  .auth_box {
+    display: none;
+  }
+  .mobil__menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 479px){
+  .logo li:first-child,
+  .logo li:last-child {
+    font-size: 22px;
+  } 
+  .logo li:nth-child(2) {
+    font-size: 13px;
+  }
+    .mobil__menu i {
+    font-size: 17px;
+  }
+}

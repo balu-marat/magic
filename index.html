@@ -5,23 +5,64 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Internet Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-  <header>
-    <div class="heaer__top-panel">
-      <div class="logo">
-        
+  <header class="header">
+    <div class="container">
+      <div class="header__top-panel">
+        <ul class="logo">
+          <li><span>магия</span></li>
+          <li><span>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </span></li>
+          <li><span>365</span></li>
+        </ul>
+        <ul class="auth_box">
+          <li><a href="">Войти</a></li>
+          <li><a href="">Регистрация</a></li>
+          <li>
+            <span class="icon--msg" id="showCart"><i class="fa-solid fa-basket-shopping"></i>
+              <span class="msg">0</span>
+            </span>
+          </li>
+        </ul>
+        <div class="mobil__menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="">Главная</a></li>
+          <li><a href="">Контакты</a></li>
+          <li><a href="">Каталог</a></li>
+          <li><a href="">Доставка</a></li>
+          <li><a href="">Акции</a></li>
+        </ul>
+        <form class="form" method="">
+          <div>
+            <input type="text" placeholder="Поиск..." required>
+          </div>
+          <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </nav>
+      <!-- <div class="mobil__menu">
+        <i class="fa-solid fa-bars"></i>
+      </div> -->
     </div>
-    <nav class="nav">
-    </nav>
   </header>
   <main>
-    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    <div class="container">
+      
+    </div>
         <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
   </main>
-  <footer></footer>
+  <footer>
+    <div class="container">
+
+    </div>
+  </footer>
   <script src="https://kit.fontawesome.com/77483e7388.js" crossorigin="anonymous"></script>
 </body>
 </html>
